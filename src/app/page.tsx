@@ -23,7 +23,7 @@ export default function Home() {
         <Sidebar collapsible="icon" className="overflow-hidden">
           <SidebarHeader className="flex-row">
             <SidebarTrigger />
-            <span className="text-xl text-nowrap">Upwork Jobs</span>
+            <span className="text-xl text-nowrap">Upwork Jobless</span>
           </SidebarHeader>
           <SidebarContent>
             <SidebarGroup>
