@@ -2,7 +2,7 @@ import { Webhook } from "svix";
 import { inngest } from "../client";
 import { env } from "@/data/env/server";
 import { NonRetriableError } from "inngest";
-import { deleteUser, insertUser, updateUser } from "@/features/users/db/user";
+import { deleteUser, insertUser, updateUser } from "@/features/users/db/users";
 import { insertUserNotificationSettings } from "@/features/users/db/userNotificationSettings";
 
 function verifyWebhook({
